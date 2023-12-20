@@ -1,0 +1,7 @@
+ngx_alloc
+ngx_sprintf
+ngx_destroy_pool
+ngx_snprintf
+ngx_close_connection
+ngx_handle_read_event
+ngx_http_close_connection

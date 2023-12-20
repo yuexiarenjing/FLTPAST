@@ -1,0 +1,9 @@
+getLuma4x4Neighbour
+SATD
+get_mb_pos
+PutPel_14
+FastPelY_14
+get_mb_block_pos
+getNonAffNeighbour
+writeUVLC2buffer
+symbol2vlc

@@ -1,0 +1,14 @@
+# 追踪所有函数，并统计调用次数，按大小排序输出
+
+global function_calls
+
+probe process("/path/to/target_binary").function("*") {
+  func_name = probefunc()
+  function_calls[func_name]++
+}
+
+probe end {
+  foreach (func in function_calls-) {
+    printf("%-30s : %d\n", func, function_calls[func])
+  }
+}

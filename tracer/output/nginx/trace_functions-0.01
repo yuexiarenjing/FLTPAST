@@ -1,0 +1,2 @@
+ngx_close_connection
+ngx_handle_read_event

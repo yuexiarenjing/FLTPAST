@@ -1,0 +1,14 @@
+quantum_sigma_x
+quantum_qec_get_status
+quantum_decohere
+quantum_cnot
+quantum_toffoli
+quantum_hash64
+muxfa
+muxha
+muxha_inv
+muxfa_inv
+test_sum
+madd
+madd_inv
+addn

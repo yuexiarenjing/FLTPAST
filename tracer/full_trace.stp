@@ -1,0 +1,4 @@
+probe process("/root/workload/libquantum/libquantum").function("*")
+{
+	printf("%s\n", ppfunc());
+}
