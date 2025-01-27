@@ -36,3 +36,4 @@ A tool to automatically generate function level trace points which can optimize 
   3.2 run adaptive_trace.py to generate the systemtap tracing script.
   
   3.3 run the stp script, e.g., stap -v trace_functions-0.01.stp -o out
+
