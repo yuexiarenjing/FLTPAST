@@ -14,4 +14,3 @@ do
                 clang  -emit-llvm -S -c $c_file -o $ll_file  # add -I[include_path] if needed
         fi
 done
-
